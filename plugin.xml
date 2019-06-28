@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+  id="com.commontime.cordova.silentaudio"
+  version="1.0.0">
+
+  <name>SilentAudio</name>
+
+  <js-module src="www/silentaudio.js" name="silentaudio">
+    <clobbers target="silentaudio" />
+  </js-module>  
+
+  <platform name="ios">
+
+    <config-file target="config.xml" parent="/*">
+        <feature name="SilentAudio">
+            <param name="ios-package" value="SilentAudio" />
+            <param name="onload" value="true" />
+        </feature>
+    </config-file>
+
+    <config-file target="*-Info.plist" parent="UIBackgroundModes">
+        <array>
+            <string>audio</string>
+        </array>
+    </config-file>
+
+    <resource-file src="appbeep.m4a" />
+
+    <header-file src="src/ios/SilentAudio.h" />
+    <source-file src="src/ios/SilentAudio.m" />
+    <header-file src="src/ios/APPMethodMagic.h" />
+    <source-file src="src/ios/APPMethodMagic.m" />
+
+  </platform>
+    
+</plugin>

@@ -1,0 +1,25 @@
+{
+  "name": "com.commontime.cordova.silentaudio",
+  "version": "1.0.0",
+  "description": "Commontime cordova silentaudio plugin.",
+  "cordova": {
+    "id": "com.commontime.cordova.silentaudio",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "commontime",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Commontime Ltd",
+  "license": "MIT"
+}
