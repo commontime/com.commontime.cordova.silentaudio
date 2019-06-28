@@ -24,8 +24,6 @@
         </array>
     </config-file>
 
-    <resource-file src="appbeep.m4a" />
-
     <header-file src="src/ios/SilentAudio.h" />
     <source-file src="src/ios/SilentAudio.m" />
     <header-file src="src/ios/APPMethodMagic.h" />
