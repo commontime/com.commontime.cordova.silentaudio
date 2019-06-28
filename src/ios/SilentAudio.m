@@ -19,7 +19,7 @@
   under the License.
 */
 
-#import "APPMethodMagic.h"
+#import "APPMethodMagicSA.h"
 #import "SilentAudio.h"
 #import <Cordova/CDVAvailability.h>
 #include "notify.h"

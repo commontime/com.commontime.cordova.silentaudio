@@ -24,10 +24,12 @@
         </array>
     </config-file>
 
+    <resource-file src="appbeepSA.m4a" />
+
     <header-file src="src/ios/SilentAudio.h" />
     <source-file src="src/ios/SilentAudio.m" />
-    <header-file src="src/ios/APPMethodMagic.h" />
-    <source-file src="src/ios/APPMethodMagic.m" />
+    <header-file src="src/ios/APPMethodMagicSA.h" />
+    <source-file src="src/ios/APPMethodMagicSA.m" />
 
   </platform>
     
