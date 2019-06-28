@@ -138,7 +138,7 @@
 - (void) configureAudioPlayer
 {
     NSString* path = [[NSBundle mainBundle]
-                      pathForResource:@"appbeep" ofType:@"m4a"];
+                      pathForResource:@"appbeepSA" ofType:@"m4a"];
 
     NSURL* url = [NSURL fileURLWithPath:path];
 
