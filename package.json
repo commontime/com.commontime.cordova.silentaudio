@@ -5,7 +5,6 @@
   "cordova": {
     "id": "com.commontime.cordova.silentaudio",
     "platforms": [
-      "android",
       "ios"
     ]
   },
